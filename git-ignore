@@ -1,0 +1,55 @@
+# ─────────────────────────────────────────────────────────
+#  .gitignore — Limkokwing Library Management System
+#  PROG315 | Object-Oriented Programming 2
+# ─────────────────────────────────────────────────────────
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Unit test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+*.xml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
